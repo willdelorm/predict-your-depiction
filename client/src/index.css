@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #3B1D71, #D26B77, #FEAE7B);
+  font-family: Courier, monospace;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px blue inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
